@@ -103,7 +103,6 @@ if df is not None:
     
     # === SIDEBAR INPUT ===
     st.sidebar.title("Panel Input")
-    st.sidebar.info("Masukkan spesifikasi laptop untuk melakukan prediksi segmen.")
     
     st.sidebar.subheader("Spesifikasi Teknis")
     ram = st.sidebar.slider("RAM (GB)", 2, 64, 8)
